@@ -34,7 +34,7 @@ function http_request($url,$data=array(),$raw=false){
     // POST数据
     curl_setopt($ch, CURLOPT_POST, 1);
     // 把post的变量加上
-    curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
     $output = curl_exec($ch);
     curl_close($ch);
     return $output;
