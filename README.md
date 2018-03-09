@@ -9,4 +9,4 @@
 ### 基础功能
 [网络访问](function/base/network.md "网络访问")
 ### 第三方相关
-[微信开发](function/thrid_party/weixin.md "微信开发")
+[微信开发](function/third_party/weixin.md "微信开发")
