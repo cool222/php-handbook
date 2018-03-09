@@ -7,6 +7,6 @@
 
 ## 常用函数
 ### 基础功能
-[网络访问](network.md "网络访问")
+[网络访问](function/base/network.md "网络访问")
 ### 第三方相关
-[微信开发](weixin.md "微信开发")
+[微信开发](function/third_party/weixin.md "微信开发")
