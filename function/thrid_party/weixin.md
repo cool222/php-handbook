@@ -20,6 +20,9 @@
 * 返回值：
 * $scope为"base"时,返回openid（静默授权）
 * $scope为"userinfo"时,返回完整用户信息（可能会有显式授权）
+*
+* 使用方法：
+* 在控制器基类构造函数中使用 $user=getWeixinUser($appid,$secrit,"userinfo") 即可
 */
 function getWeixinUser($appid,$secrit,$scope="base")
     if(empty($_GET['code'])){
